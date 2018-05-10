@@ -1,0 +1,59 @@
+// Colors
+$bg-violet: #3c2c60
+$text-violet: #c3bad7
+$primary-pink: #f24b71
+$pink-time: #f05570
+$primary-blue: #007bff
+$focused-pink: #e14367
+
+// Font-weight
+$semi-bold: 600
+$bold: 700
+$extra-bold: 800
+
+
+// Media sizes
+$phoneWidth: 320px
+$tablet-portWidth: 480px
+$tablet-landWidth: 768px
+$desktopWidth: 1024px
+$desktopWidthLg: 1500px
+
+
+$phone: "only screen and (max-width: " + $phoneWidth + ")"
+$tablet-port: "only screen and (min-width: " + ($phoneWidth + 1) + ") and (max-width: " + $tablet-portWidth + ")"
+$tablet-land: "only screen and (min-width: " + ($tablet-portWidth + 1) + ") and (max-width: " + $tablet-landWidth + ")"
+$desktop: "only screen and (min-width: " + ($tablet-landWidth + 1) + ") and (max-width: " + $desktopWidth + ")"
+$desktopLg: "only screen and (min-width: " + ($desktopWidth + 1) + ") and (max-width: " + $desktopWidthLg + ")"
+
+
+
+*,
+*::before,
+*::after
+	margin: 0
+	padding: 0
+
+*,
+*::before,
+*::after
+	box-sizing: inherit
+
+html
+	box-sizing: border-box
+
+
+body
+	font-family: 'Montserrat', sans-serif
+	font-weight: 400
+	line-height: 1.6
+	background-size: cover
+	background-repeat: no-repeat
+	min-height: 100vh
+	overflow-x: hidden
+
+li
+	list-style: none
+
+a
+	text-decoration: none
